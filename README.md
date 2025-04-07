@@ -14,26 +14,20 @@ digitalIdentity/
   │       │   ├── UserDashboard.js
   │       │   ├── VerifyDetails.js
   │       │   ├── UserRegistration.js
-  │       │   └── ... (other component files)
   │       ├── hooks/
-  │       │   └── useWeb3.js (or similar file for web3 connection)
-  │       │   └── ... (other hook files if needed)
+  │       │   └── useWeb3.js
   │       ├── images/
-  │       │   └── ... (image files for UI)
   │       ├── index.js
   │       └── pages/
   │           ├── AdminLoginPage.js
   │           ├── UserLoginPage.js
   │           └── VerifyDetailsPage.js  
-  │               └── ... (other page component files)
-  │       └── ... (other React files)
   ├── contracts/
   │   ├── DigiIdentity.sol
-  │   └── ... (other contract files if needed)
   ├── migrations/
-  │   └── 1_initial_migration.js (or numbered migration files)
+  │   └── 1_initial_migration.js
   ├── truffle-config.json
-  └── package.json (project-level dependencies)
+  └── package.json
   └── README.md
 ```
 
